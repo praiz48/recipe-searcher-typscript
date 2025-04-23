@@ -1,0 +1,31 @@
+/* Cooking Vibe Theme */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fffaf0; /* Light cream background */
+  color: #6c757d; /* Deep eggplant text */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6f61; /* Warm tomato red */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 20px;
+}
+
+.recipe-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
